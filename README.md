@@ -201,17 +201,6 @@ src/
 - Push/email notifications when a budget crosses a threshold
 - Optimistic UI updates for instant feedback before the server responds
 
----
-
-## Screenshots
-
-> Add screenshots here after your first deploy:
->
-> - `docs/screenshot-landing.png` — Landing page
-> - `docs/screenshot-dashboard.png` — Dashboard overview
-> - `docs/screenshot-budgets.png` — Budgets grid
-> - `docs/screenshot-expenses.png` — Expenses table with filters
-> - `docs/screenshot-dark.png` — Dark mode
 
 ---
 
