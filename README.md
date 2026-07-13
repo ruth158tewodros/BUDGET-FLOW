@@ -211,7 +211,7 @@ src/
 > - `docs/screenshot-dashboard.png` — Dashboard overview
 > - `docs/screenshot-budgets.png` — Budgets grid
 > - `docs/screenshot-expenses.png` — Expenses table with filters
-> - `docs/screenshot-dark.png` — Dark mode
+
 
 ---
 

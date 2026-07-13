@@ -12,7 +12,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
-    "@clerk/nextjs": "^7.5.12",
+    "@clerk/nextjs": "^7.5.17",
     "@clerk/themes": "^2.4.57",
     "@neondatabase/serverless": "^1.1.0",
     "@radix-ui/react-alert-dialog": "^1.1.18",
@@ -31,8 +31,8 @@
     "lucide-react": "^1.23.0",
     "next": "15.5.20",
     "next-themes": "^0.4.6",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react": "^19.1.4",
+    "react-dom": "^19.1.4",
     "recharts": "^3.9.1",
     "sonner": "^2.0.7",
     "svix": "^1.96.1",
