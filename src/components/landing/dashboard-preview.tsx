@@ -32,26 +32,28 @@ export function DashboardPreview() {
 
       <div className="grid grid-cols-1 gap-6 pt-5 sm:grid-cols-[auto_1fr]">
         <div className="mx-auto flex flex-col items-center justify-center">
-          <svg width="140" height="140" viewBox="0 0 120 120" className="-rotate-90">
-            <circle cx="60" cy="60" r="54" fill="none" stroke="var(--muted)" strokeWidth="10" />
-            <motion.circle
-              cx="60"
-              cy="60"
-              r="54"
-              fill="none"
-              stroke="var(--primary)"
-              strokeWidth="10"
-              strokeLinecap="round"
-              strokeDasharray={circumference}
-              initial={{ strokeDashoffset: circumference }}
-              whileInView={{ strokeDashoffset: circumference * (1 - 0.64) }}
-              viewport={{ once: true }}
-              transition={{ duration: 1.1, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
-            />
-          </svg>
-          <div className="-mt-[86px] flex flex-col items-center">
-            <span className="text-2xl font-semibold text-foreground">64%</span>
-            <span className="text-xs text-muted-foreground">of budget used</span>
+          <div className="relative h-[140px] w-[140px]">
+            <svg width="140" height="140" viewBox="0 0 120 120" className="-rotate-90">
+              <circle cx="60" cy="60" r="54" fill="none" stroke="var(--muted)" strokeWidth="10" />
+              <motion.circle
+                cx="60"
+                cy="60"
+                r="54"
+                fill="none"
+                stroke="var(--primary)"
+                strokeWidth="10"
+                strokeLinecap="round"
+                strokeDasharray={circumference}
+                initial={{ strokeDashoffset: circumference }}
+                whileInView={{ strokeDashoffset: circumference * (1 - 0.64) }}
+                viewport={{ once: true }}
+                transition={{ duration: 1.1, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
+              />
+            </svg>
+            <div className="absolute inset-0 flex flex-col items-center justify-center">
+              <span className="text-2xl font-semibold text-foreground">64%</span>
+              <span className="text-xs text-muted-foreground">of budget used</span>
+            </div>
           </div>
           <div className="mt-6 text-center">
             <p className="text-xs text-muted-foreground">Remaining this month</p>
